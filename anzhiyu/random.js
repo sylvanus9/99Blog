@@ -1,3 +1,3 @@
-var posts=["2023/03/10/linggan/柯南/","2022/11/19/example/","2023/01/18/linggan/纸面情绪/"];function toRandomPost(){
+var posts=["2024/11/09/日常碎片/最近的我/","2025/06/13/直播笔记/【抖音】粉丝地址查找/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
